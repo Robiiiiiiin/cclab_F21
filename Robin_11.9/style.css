@@ -1,0 +1,30 @@
+
+body{
+
+  margin:0;
+}
+
+.box1{
+
+  border-color: black;
+  border-width:1px;
+  border-style: solid;
+
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 50px;
+width:25%;
+}
+.text{
+  color:blue;
+  border-color: red;
+  border-width: 1px;
+  border-style: dashed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.absoluteBox{
+  left:500px;
+  position: absolute;
+  background:coral;
+}

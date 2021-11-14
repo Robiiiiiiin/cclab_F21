@@ -1,0 +1,53 @@
+body{
+  background-color: #bee6d1;
+}
+
+h1{
+
+font-family: serif;
+font-style: italic;
+text-align: center;
+
+}
+a:link {
+color: #519973;
+  }
+
+a:visited {
+color: #519973;
+  }
+
+
+.songTitle{
+font-size:50px;
+
+text-shadow: 4px 2px;
+}
+.artistName{
+ text-shadow: 2.5px 2.5px; */
+ font-size:30px; */
+
+
+}
+.album1{
+
+float: left;
+width: 300px；
+height: 300px；
+
+}
+.album2{
+float: right;
+height: 300px；
+width: 300px；
+
+}
+
+
+.Lyrics{
+
+font-family: serif;
+text-align: center;
+
+
+}

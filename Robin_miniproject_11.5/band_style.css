@@ -1,0 +1,40 @@
+body{
+  background-color: #bee6d1;
+}
+h1{
+
+color: #519973;
+font-family: serif;
+font-style: italic;
+text-align: center;
+font-size:50px;
+
+
+}
+p{
+  color:black;
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+}
+a{
+  color:black;
+}
+.intro{
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+
+}
+img{
+border: 3px solid;
+max-width:450px;
+}
+.band1{
+
+  float: left;
+}
+
+.band2{
+  float: right;
+}
