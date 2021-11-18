@@ -11,8 +11,8 @@ function setup() {
   canvas.id("p5-canvas");
   checkboxRect = document.getElementById('checkbox-rect');
   checkboxCircle = document.getElementById('checkbox-circle');
-  sliderC= document.getElementById("size1");
-sliderR= document.getElementById("size2")
+sliderC= document.getElementById("size2");
+sliderR= document.getElementById("size1")
 }
 
 
@@ -24,8 +24,8 @@ function draw() {
     rectMode(CENTER);
     noStroke();
     fill(0,random(200,255),0)
-    rect(random(600), 250, 50, 50);
-    rect(120,random(500), 50, 50);
+    rect(random(600), 250, sizeR, sizeR);
+    rect(120,random(500), sizeR, sizeR);
 
   }
 ;
@@ -34,7 +34,7 @@ function draw() {
     noStroke();
     fill(0,random(200,255),random(200,255))
     circle(random(600), random(450),   sizeC);
-  
+
 
   }
 
