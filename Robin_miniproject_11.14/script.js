@@ -23,7 +23,7 @@ function draw() {
   if (checkboxRect.checked) {
     rectMode(CENTER);
     noStroke();
-    fill(0,random(200,255),0)
+    fill(0,random(255),0)
     rect(random(600), 250, sizeR, sizeR);
     rect(120,random(500), sizeR, sizeR);
 
@@ -32,7 +32,7 @@ function draw() {
 
   if (checkboxCircle.checked) {
     noStroke();
-    fill(0,random(200,255),random(200,255))
+    fill(0,random(150,255),random(150,255))
     circle(random(600), random(450),   sizeC);
 
 
