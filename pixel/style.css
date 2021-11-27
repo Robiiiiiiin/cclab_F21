@@ -1,0 +1,15 @@
+
+p{
+color:white;
+position: absolute;
+/* top: 1200px； */
+
+}
+body {
+background-color: black;
+margin:200px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
