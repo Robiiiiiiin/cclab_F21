@@ -1,0 +1,79 @@
+body{
+ background-color: black;
+
+}
+h1{
+   font-style: oblique;
+   color:coral;
+}
+a{
+
+  color:white;
+
+}
+.name{
+    font-size: 12px;
+    font-style: italic;
+    position:fixed;
+    bottom:10%;
+    width:180%;
+    text-align:center;
+}
+.bgm{
+  font-size: 12px;
+  font-style: italic;
+  position:fixed;
+  bottom:10%;
+  width:100%;
+  text-align:center;
+}
+.intro{
+  position:fixed;
+  bottom:45%;
+  width:100%;
+  text-align:center
+}
+.warning{
+    position:fixed;
+    bottom:40%;
+    width:100%;
+    text-align:center
+}
+.hide{
+  display: none;
+  font-style: italic;
+}
+
+.hide1{
+  font-style: italic;
+  display: none;
+}
+
+.intro:hover + .hide {
+  display:flex;
+  position:fixed;
+  bottom:50%;
+  left: 5%;
+  width: 20%;
+}
+.warning:hover +.hide1{
+  display:flex;
+  position:fixed;
+  bottom:40%;
+  right: 5%;
+  width: 20%;
+  color:red;
+}
+.life{
+  position:fixed;
+  bottom:50%;
+  width:100%;
+  text-align:center;
+
+}
+.button{
+  position:fixed;
+  bottom:20%;
+  width:100%;
+  text-align:center;
+}
